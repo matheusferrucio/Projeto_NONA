@@ -1,0 +1,68 @@
+:root {
+    --azul-escuro: #002074;
+    --azul-escuro2: #042e99;
+    --azul-escuro3: #0534ac;
+    --azul-intermediario: rgb(18, 18, 233);
+    --azul-claro: rgb(39, 39, 243);
+    --cor-texto: rgb(75, 73, 73);
+    --cinza: rgb(235, 231, 231);
+}
+
+.container_add_produto {
+    margin: 40px auto;
+    border: 1px solid silver;
+    box-shadow: 0 0 25px silver;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #fff;
+}
+
+.cadastro_prod_container label {
+    color: var(--azul-escuro);
+    font-size: 1.5em;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.cadastro_prod_container input[type=text],
+.cadastro_prod_container select {
+    height: 50px;
+    border-radius: 6px;
+    color: var(--cor-texto);
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.cadastro_prod_container textarea {
+    height: 150px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+.cadastro_prod_container input[type=submit]{
+    border-radius: 10px;
+    border: 2px solid var(--azul-escuro);
+    color: var(--azul-escuro);
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: transparent;
+    height: 50px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn_vender {
+    padding: 20px 0;
+}
+
+.cadastro_prod_container input[type=submit]:hover {
+    background-color: var(--azul-escuro);
+    color: #fff;
+}
